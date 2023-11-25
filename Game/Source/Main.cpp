@@ -1,27 +1,20 @@
 #include "raylib.h"
 
-
 int main()
 {
-    InitWindow(720, 480, "GameName");
+	InitWindow(720, 480, "Game");
 
-    while (!WindowShouldClose())
-    {
-        // Update
+	while(!WindowShouldClose())
+	{
+		// UpdateGame();
 
-        // UpdateGame()
+		BeginDrawing();
+		ClearBackground(WHITE);
 
+		// DrawGame();
 
-        // Draw
-        BeginDrawing();
-        ClearBackground(WHITE);
+		EndDrawing();
+	}
 
-        // DrawGame()
-
-        EndDrawing();
-    }
-
-    CloseWindow();
-
-    return 0;
+	CloseWindow();
 }
