@@ -1,4 +1,4 @@
-## The cleanest of all clean Raylib templates. Super minimalistic.
+## The cleanest of all clean Raylib templates.
 
 What you need:
 - Windows
